@@ -1,0 +1,67 @@
+/*Police fournie*/
+@font-face{
+	font-family: 'fontawesome'
+	src: url('fonts/fontawesome-webfont.eot') format('eot'),
+		 url('fonts/fontawesome-webfont.woff') format('woof'),
+		 url('fonts/fontawesome-webfont.ttf') format('ttf'),
+		 url('fonts/fontawesome-webfont.svg') format('svg');
+
+	font-family: 'glyphicons-halflings-regular'
+	src: url('fonts/glyphicons-halflings-regular.eot') format('eot'),
+		 url('fonts/glyphicons-halflings-regular.woff') format('woof'),
+		 url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
+		 url('fonts/glyphicons-halflings-regular.svg') format('svg');
+}
+
+body{
+	font-family: 'fontawesome', 'glyphicons-halflings-regular', Arial, sans-serif;
+}
+
+#bloc_page{
+
+	width: 100%;
+	margin: auto;
+}
+
+/*Entête et liens de navigation*/
+	/*Entête*/
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#logo{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	width: 150px;
+	height: 70px;
+	margin-left: 120px;
+	margin-top:40px;
+}
+
+	/*Navigation*/
+nav ul{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li{
+	margin-left: 35px;
+}
+
+nav a{
+	font-size: 1.1em;
+	padding-top: 15px;
+	text-decoration: none;
+	font-color: black;
+}
+nav a :hover{
+	font-color: white;
+}
+.bleu{
+	color: blue;
+	font-weight: bold;
+	font-size: 1.7em;
+ }
